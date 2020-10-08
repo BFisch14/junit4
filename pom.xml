@@ -75,21 +75,16 @@
         <url>https://travis-ci.org/junit-team/junit4</url>
     </ciManagement>
     <distributionManagement>
-        <downloadUrl>https://github.com/junit-team/junit4/wiki/Download-and-Install</downloadUrl>
-        <snapshotRepository>
-            <id>junit-snapshot-repo</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        snapshotRepository>
+            <id>snapshots</id>
+            <name>c2f997758476-snapshots</name>
+            <url>http://artifactory:8081/artifactory/libs-snapshot-local</url>
         </snapshotRepository>
         <repository>
-            <id>junit-releases-repo</id>
-            <name>Nexus Release Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>central</id>
+            <name>c2f997758476-releases</name>
+            <url>http://artifactory:8081/artifactory/libs-release-local</url>
         </repository>
-        <site>
-            <id>junit.github.io</id>
-            <url>gitsite:git@github.com/junit-team/junit4.git</url>
-        </site>
     </distributionManagement>
 
     <properties>
