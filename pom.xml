@@ -75,7 +75,7 @@
         <url>https://travis-ci.org/junit-team/junit4</url>
     </ciManagement>
     <distributionManagement>
-        snapshotRepository>
+        <snapshotRepository>
             <id>snapshots</id>
             <name>c2f997758476-snapshots</name>
             <url>http://artifactory:8081/artifactory/libs-snapshot-local</url>
