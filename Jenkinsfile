@@ -21,7 +21,7 @@ pipeline {
                 Art_COMMON_CREDS = credentials('artifactory')
             }
             steps {
-               sh 'curl -u $Art_COMMON_CREDS -X PUT "http://artifactory:8081/artifactory/libs-snapshot-local/com/devops-bootcamp/samples/junit619/junit/4.16-SNAPSHOT/junit-4.16-1.jar" -T ${WORKSPACE}/target/junit-4.16-SNAPSHOT.jar' 
+               sh 'curl -u $Art_COMMON_CREDS -X PUT "http://artifactory:8081/artifactory/libs-snapshot-local/com/devops-bootcamp/samples/junit619/junit/4.16-SNAPSHOT/junit-4.16-1.jar" -T ${WORKSPACE}/target/junit4.jar' 
             }
         }
     }
