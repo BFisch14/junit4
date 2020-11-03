@@ -342,6 +342,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>2.6</version>
                 <configuration>
+                    <finalName>junit4</finalName>
                     <archive>
                         <addMavenDescriptor>false</addMavenDescriptor>
                         <manifest>
